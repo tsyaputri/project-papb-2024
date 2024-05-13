@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fitur1"
+        android:icon="@drawable/aq_indoor_ek1"
+        android:title="fitur1"/>
+    <item
+        android:id="@+id/fitur2"
+        android:icon="@drawable/reviews_ek1"
+        android:title="fitur2"/>
+    <item
+        android:id="@+id/fitur3"
+        android:icon="@drawable/local_laundry_service"
+        android:title="fitur3"/>
+    <item
+        android:id="@+id/fiturRiwayat"
+        android:icon="@drawable/device_reset"
+        android:title="fiturRiwayat"/>
+    <item
+        android:id="@+id/fitur4"
+        android:icon="@drawable/account_circle_ek1"
+        android:title="fitur4"/>
+</menu>
