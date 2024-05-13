@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- halaman_pelacakan strings -->
+
+    <string name="app_name">Utama 2</string>
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="order_history_string">Order History</string>
+    <string name="order_status_string">Order Status</string>
+    <string name="andi_sujadi_string">Andi Sujadi</string>
+    <string name="rp_29_000___bank_transfer_string">Rp 29.000 | Bank Transfer</string>
+    <string name="delivery_partner_string">Delivery Partner</string>
+    <string name="view_order_string">View Order</string>
+    <string name="order_confirmed_string">Order Confirmed</string>
+    <string name="pickup_arranged_string">Pickup Arranged</string>
+    <string name="laundry_in_process_string">Laundry in Process</string>
+    <string name="out_of_delivery_string">Out of Delivery</string>
+    <string name="delivered_string">Delivered</string>
+    <string name="confirmed_on_20_jan__11_34_pm_string">Confirmed on 20 Jan, 11:34 PM</string>
+    <string name="make_your_laundry_ready_to_pick_string">Make your laundry ready to pick</string>
+    <string name="your_laundry_task_is_in_process_string">Your laundry task is in process</string>
+    <string name="your_laundry_is_out_for_delivery_string">Your laundry is out for delivery</string>
+    <string name="your_laundry_has_been_delivered_string">Your laundry has been delivered</string>
+    <string name="order__1254_string">Order #1254</string>
+    <string name="_30_des_2018_3_00_pm_string">30-Des-2018 3.00 PM</string>
+    <string name="estimated_delivery_in_7_dec_string">Estimated Delivery in 7 Dec</string>
+    <string name="my_order_string">My Order</string>
+    <string name="order__1255_string">Order #1255</string>
+    <string name="estimated_delivery_in_21_dec_string">Estimated Delivery in 21 Dec</string>
+    <string name="_30_des_2018_3_00_pm_ek1_string">30-Des-2018 3.00 PM</string>
+    <string name="order__1253_string">Order #1253</string>
+    <string name="_30_des_2018_3_00_pm_ek2_string">30-Des-2018 3.00 PM</string>
+    <string name="estimated_delivery_in_3_nov_string">Estimated Delivery in 3 Nov</string>
+    <string name="order__1252_string">Order #1252</string>
+    <string name="_30_des_2018_3_00_pm_ek3_string">30-Des-2018 3.00 PM</string>
+    <string name="estimated_delivery_in_27_oct_string">Estimated Delivery in 27 Oct</string>
+    <string name="order__1251_string">Order #1251</string>
+    <string name="_30_des_2018_3_00_pm_ek4_string">30-Des-2018 3.00 PM</string>
+    <string name="estimated_delivery_in_5_oct_string">Estimated Delivery in 5 Oct</string>
+</resources>
