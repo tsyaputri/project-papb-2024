@@ -25,6 +25,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="PemesananLayanan.halaman_pemesanan"
+            android:exported="true"
+            />
+        <activity android:name="PemesananLayanan.halaman_pemesanan_activity"
+            android:exported="true"
+            />
+        <activity android:name="PemesananLayanan.MainPemesanan"
+            android:exported="true"
+            />
+        <activity
+            android:name=".PemesananLayanan.KetersediaanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PemesananLayanan.MainPickupSchedule"
+            android:exported="false"/>
+        <activity
+            android:name=".PemesananLayanan.ScheduleAdapter"
+            android:exported="false"/>
     </application>
 
 </manifest>
