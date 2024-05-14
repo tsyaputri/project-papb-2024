@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background_color">
+
+    <!-- TextView untuk judul -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cek Ketersediaan Layanan"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/order_color"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- TextView label untuk Spinner -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih Jenis Pakaian"
+        android:textSize="16sp"
+        android:textColor="@color/order_color"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Spinner untuk memilih jenis pakaian -->
+    <Spinner
+        android:id="@+id/spinnerJenisPakaian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Button untuk memeriksa ketersediaan -->
+    <Button
+        android:id="@+id/buttonCekKetersediaan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cek Ketersediaan"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white" />
+
+    <!-- TextView untuk menampilkan hasil pemeriksaan -->
+    <TextView
+        android:id="@+id/textViewHasilKetersediaan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/order_color"
+        android:layout_marginTop="20dp"
+        android:visibility="gone" />
+
+</LinearLayout>
