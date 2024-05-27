@@ -1,19 +1,14 @@
-package dosen.washifyfragmen2;
+package projek.washifyfirebase;
 
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 import androidx.fragment.app.FragmentTransaction;
 
-import dosen.washifyfragmen2.fragmen.Fitur3Fragment;
-import dosen.washifyfragmen2.fragmen.RiwayatFragment;
+import projek.washifyfirebase.fragmen.Fitur3Fragment;
+import projek.washifyfirebase.fragmen.RiwayatFragment;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     ImageView ivFitur1,ivFitur2,ivFitur3,ivFitur4,ivFiturRiwayat;

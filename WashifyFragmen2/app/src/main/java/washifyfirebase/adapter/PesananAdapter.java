@@ -1,4 +1,4 @@
-package dosen.washifyfragmen2.adapter;
+package projek.washifyfirebase.adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,22 +11,21 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import dosen.washifyfragmen2.Pelacakan;
-import dosen.washifyfragmen2.R;
-import dosen.washifyfragmen2.database.entitas.Pesanan;
+import java.util.ArrayList;
 
-import java.util.List;
+import projek.washifyfirebase.Pelacakan;
+import projek.washifyfirebase.R;
+import projek.washifyfirebase.database.entitas.Pesanan;
 
 public class PesananAdapter extends RecyclerView.Adapter<PesananAdapter.VH> {
 
     private final Context context;
-    private List<Pesanan> list;
+    private ArrayList<Pesanan> list;
 
-    public PesananAdapter(Context context, List<Pesanan> pesananList) {
+    public PesananAdapter(Context context) {
         this.context = context;
-        this.list = pesananList;
+        this.list = new ArrayList<>();
     }
-
 
     @NonNull
     @Override
@@ -35,8 +34,13 @@ public class PesananAdapter extends RecyclerView.Adapter<PesananAdapter.VH> {
         return new VH(view);
     }
 
-    public void setData(List<Pesanan> pesananList) {
-        this.list = pesananList;
+    public void setData(ArrayList<Pesanan> pesananList) {
+        if (pesananList != null) {
+            this.list = pesananList;
+        } else {
+            this.list = new ArrayList<>();
+        }
+        notifyDataSetChanged();
     }
 
     @Override

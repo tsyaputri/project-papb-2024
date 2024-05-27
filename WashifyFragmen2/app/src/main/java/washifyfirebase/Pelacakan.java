@@ -1,4 +1,4 @@
-package dosen.washifyfragmen2;
+package projek.washifyfirebase;
 
 import android.content.Intent;
 import android.net.Uri;

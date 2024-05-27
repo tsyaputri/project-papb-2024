@@ -1,4 +1,4 @@
-package dosen.washifyfragmen2.fragmen;
+package projek.washifyfirebase.fragmen;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
 
-import dosen.washifyfragmen2.R;
+import projek.washifyfirebase.R;
 
 /**
  * A simple {@link Fragment} subclass.
